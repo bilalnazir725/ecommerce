@@ -1,0 +1,199 @@
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: white;
+    width: 900px;
+    position: absolute;
+    margin-left: -230px;
+    border-radius: 8px;
+    box-shadow: 2px 1px 1px 1px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: white;
+    width: 900px;
+    position: absolute;
+    margin-left: -300px;
+    border-radius: 8px;
+    box-shadow: 3px 2px 2px ;
+    padding: 40px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.speaker {
+    position: absolute;
+    top: 340px;
+    left: 480px;
+}
+
+.speaker:hover {
+    transform: rotateY(7deg);
+}
+
+.dropdown1 {
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    background-color: white;
+    width: 900px;
+    position: absolute;
+    margin-left: -300px;
+    border-radius: 8px;
+    box-shadow: 3px 2px 2px ;
+    padding: 40px;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+.dropdown2 {
+    display: inline-block;
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 180px;
+    box-shadow: 2px 1px 1px 1px;
+    padding: 25px;
+    margin-top: 5px;
+
+}
+.dropdown2:hover .dropdown-content2 {
+    display: block
+}
+.dropdown3{
+    display: inline-block;
+}
+.dropdown-content3{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 270px;
+    box-shadow: 2px 1px 1px 1px;
+    margin-left: -40px;
+    padding: 2px;
+    margin-top: 10px;
+}
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+
+.img1 {
+    transform: rotateY(7deg);
+}
+
+.icon1{
+    background-color: aquamarine;
+    border-radius: 7px;
+    padding: 20px;
+}
+.outer{
+    position: relative;
+
+}
+
+.iner{
+    position: absolute;
+    display: none;
+}
+.outer:hover .iner{
+    display: block;
+    position: relative;
+    bottom: 350px;
+
+}
+.speak1{
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 5px;
+}
+.speak1:hover{
+    box-shadow: 0px 0px 5px blue;
+}
+.speak12{
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 5px;
+}
+.speak12:hover{
+    box-shadow: 0px 0px 5px blue;
+}
+.speak13{
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 5px;
+}
+.speak13:hover{
+    
+    box-shadow: 0px 0px 5px blue;
+}
+
+.battery:hover{
+    transform: translateX(15px);
+  }
+  .battery-icon{
+    position: absolute;
+    left: 320px;
+    top: 1175px;
+  }
+  .battery1
+  .h4:hover{
+    color: aqua;
+  }
+  .sqr{
+    background-color: white;
+  }
+  .sqr:hover{
+    background-color: blue;
+    color: white;
+  }
+  .span1 a {
+    text-decoration: none; 
+    color: white;
+  }
+  .squr:hover{
+    transform: translateX(5px);
+  }
+
+
+  .one{
+    text-align: start;
+}
+.second{
+    font-weight: lighter;
+}
+.third{
+    font-weight: lighter;
+}
+.fourth{
+    font-weight: lighter;
+}
+.second-image {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+ .s1:hover{
+    color: rgb(86, 86, 252);
+ }

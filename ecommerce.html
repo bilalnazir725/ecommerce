@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Store </title>
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- animate css cdn -->
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="ecommerce.css">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="header ">
+            <div class="row navbar navbar-expand-lg align-items-center">
+                <div class="col-lg-3 col-sm-12   d-flex ">
+                    <div class="img">
+                        <img src="./assets/logo_4.avif" alt="" class="w-75">
+                    </div>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                </div>
+                <div class=" col-lg-6 col-sm-8  " id="navbarSupportedContent">
+                    <div class="menu d-flex flex-column flex-md-row justify-content-between ">
+                        <div><a href="" style="text-decoration: underline; font-weight: bold;"> Home </a></div>
+                        <div class="dropdown"><a href="" style="font-weight: bold;"> Collection </a>
+                            <div class="dropdown-content" style="line-height: 30px; text-align: start;">
+                                <div class="row " style="font-size: small;">
+                                    <div class="col-3 ">
+                                        <div><span style="font-weight: bold;">Best Seller </span></div>
+                                        <div class="s1"><span>New Arrival</span></div>
+                                        <div class="s1"><span>Top TRENDING </span></div>
+                                        <div class="s1"><span>TOP TREDING</span></div>
+                                        <div class="s1"><span>DENIM COLLECTION </span></div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div><span style="font-weight: bold;">COLLECTION PAGE</span></div>
+                                        <div class="s1"><span>Collection Left Sidebar</span></div>
+                                        <div class="s1"><span>Collection Right Sidebar</span></div>
+                                        <div class="s1"><span>Collection TOP Sidebar</span></div>
+                                        <div class="s1"> <span>Collection WITHOUT Sidebar</span></div>
+                                        <div class="s1"><span>Collection Deals</span></div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div><span style="font-weight: bold;">COLLECTION PAGE</span></div>
+                                        <div class="s1"><span>Collection Convas On Left </span></div>
+                                        <div class="s1"><span>Collection Convas On Top</span></div>
+                                        <div class="s1"><span>Collection Bottom</span></div>
+                                        <div class="s1"><span>Collection Full Width </span></div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div><span style="font-weight: bold;">COLLECTION PAGE</span></div>
+                                        <div class="s1"><span>Numbered Pagination </span></div>
+                                        <div class="s1"><span>Load More Button </span></div>
+                                        <div class="s1"><span>Infinty Scrool Load More </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown1" style="font-weight: bold;"><a href=""> Product </a>
+                            <div class="dropdown-content1" style="line-height: 30px; text-align: start;">
+                                <div class="row" style="font-size: small;">
+                                    <div class="col-3 " >
+                                        <div><span style="font-weight: bold;"> Best Seller </span></div>
+                                        <div class="s1"><span>New Arrival</span></div>
+                                        <div class="s1"><span>Top TRENDING </span></div>
+                                        <div class="s1"><span>TOP TREDING</span></div>
+                                        <div class="s1"><span>DENIM COLLECTION </span></div>
+                                    </div>
+                                    <div class="col-3 second ">
+                                        <div><span style="font-weight: bold;" >COLLECTION PAGE</span></div>
+                                        <div class="s1"><span>Collection Left Sidebar</span></div>
+                                        <div class="s1"><span>Collection Right Sidebar</span></div>
+                                        <div class="s1"><span>Collection TOP Sidebar</span></div>
+                                        <div class="s1"><span>Collection WITHOUT Sidebar</span></div>
+                                        <div class="s1"><span>Collection Deals</span></div>
+                                    </div>
+                                    <div class="col-3 third">
+                                        <div>
+                                            <span class="fw-bold">COLLECTION PAGE</span>
+                                        </div>
+                                        <div class="s1"><span>Collection Convas On Left </span></div>
+                                        <div class="s1"><span>Collection Convas On Top</span></div>
+                                        <div class="s1"><span>Collection Bottom</span></div>
+                                        <div class="s1"><span>Collection Full Width </span></div>
+                                    </div>
+                                    <div class="col-3 fourth mt-2">                                        
+                                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                              <div class="carousel-item active" data-bs-interval="10000">
+                                                <img src="./assets/pexels-photo.webp" class="d-block w-100" alt="...">
+                                                <div class="para ms-5"> </div>
+                                              </div>
+                                              <div class="carousel-item" data-bs-interval="2000">
+                                                <img src="./assets/head2.webp" class="d-block w-100" alt="...">
+                                              </div>
+                                              <div class="carousel-item">
+                                                <img src="./assets/head1.webp" class="d-block w-100 " alt="..." style="border-radius: 5px;">
+                                              </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                              <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                              <span class="visually-hidden">Next</span>
+                                            </button>
+                                          </div> 
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown2"><a href="" style="font-weight: bold;"> Other Pages </a>
+                        <div class="dropdown-content2 ">
+                            <div class="row" style="font-size: small;">
+                                <div class="col-12 ms-3 " style="text-align: left;">
+                                    <a href=""> <span> 404 Error</span></a><br>
+                                    <a href=""> <span> About us</span></a> <br>
+                                    <a href=""> <span> Contact us </span></a> <br>
+                                    <a href=""> <span>  fAQs  </span></a> <br>
+                                    <a href=""> <span>  Direction Page  </span></a><br>
+                                    <a href=""> <span>  Location Page </span></a> <br>
+
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="dropdown3"><a href="" style="font-weight: bold;"> Blogs </a>
+                        <div class="dropdown-content3 me-2" style="line-height: 30px; text-align: center;">
+                            <div class="row" >
+                                <div class="col-12 mt-2 ms-4" style="text-align: left;">
+                                <a href=""> <span> Blog Left Sidebar</span></a><br>
+                                <a href=""> <span> Blog Right Sidebar</span></a><br>
+                                <a href=""> <span> Blog Without Sidebar</span></a><br>
+                                <a href=""> <span> Blog list View</span></a><br>
+                                <a href=""> <span> Blog Column View</span></a><br>
+                                <a href=""> <span> Blog Detail Left Sidebar</span></a><br>
+                                <a href=""> <span> Blog Detail Right Sidebar </span></a><br>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3  col-6" id="navbarSupportedContent">
+                    <div class="icon justify-content-between  d-flex fs-5">
+                        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div><i class="fa-solid fa-heart "></i></div>
+                        <div><i class="fa-solid fa-gift "></i></div>
+                        <div><i class="fa-solid fa-sliders"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="container-fluid">
+        <div class="row ">
+            <div class="col-md-6 col-12  " style=" margin-top:180px;">
+                <div class="div move" style="margin-left: 40px;">
+                    <h1 class="">Music's Next Moves </h1>
+                    <span style="color: rgb(222, 222, 123);">Goes Where no portable has gone before. <br> Acoustically.
+                        Aestheticaly.Effortlessly</span>
+                </div>
+                <button class="my-3 text-white px-3 py-2 move"
+                    style="background-color: rgb(136, 136, 234); border-radius: 4px;  border: none; margin-left: 40px;">
+                    Shop Now </button>
+            </div>
+            
+            <div class="col-lg-6 col-sm-12 ">
+                <div class="img ">
+                    <img src="https://nov-one.myshopify.com/cdn/shop/files/s-5-1_1366x.jpg?v=1705054457" alt=""
+                        class="w-100">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-4  ">
+                <img src="https://nov-one.myshopify.com/cdn/shop/files/img-slideshow_1366x.png?v=1705049461" alt=""
+                    class="speaker d-block d-lg-inline d-none" style="width: 250px;">
+            </div>
+        </div>
+
+        <div class="row my-5 ">
+            <div class="col-lg-4 col-sm-6 mt-5  ">
+                <div class="ms-5">
+                        <div class="text-center" style="width: 95px ; height: 80px ; border-radius: 9px ; background-color: #EFF6FF; margin-left: 100px;">
+                            <img src="https://nov-one.myshopify.com/cdn/shop/files/icon-5-1_200x.svg?v=1704937937" class="squr" alt="">
+                        </div>
+                        <div class="h4 text-center fw-bold">No Hassle Setup </div>
+                        <div class="para text-center">
+                            <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit</p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-4 mt-5 ">
+                    <div class=" ">
+                        <div class="text-center" style="width: 95px ; height: 80px ; margin-left: 70px; border-radius: 9px ; background-color: #EFF6FF; margin-left: 140px;">
+                            <img src="https://nov-one.myshopify.com/cdn/shop/files/icon-5-2_200x.svg?v=1704937958"  class="squr">
+                        </div>
+                        <div class="h4 text-center"> High-Performance  Battery </div>
+                        <div class="para text-center">
+                             <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit</p>
+                        </div>
+                     </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 mt-5">
+         <div class="">
+            <div class=" ">
+                <div class="text-center " style="width: 95px ; height: 80px ; border-radius: 12px ; background-color:#EFF6FF; margin-left: 160px; ">
+                    <img src="https://nov-one.myshopify.com/cdn/shop/files/icon-5-3_200x.svg?v=1704937958" class="squr" alt="">
+                </div>
+             </div>
+        </div>
+                <div class="h4 text-center">Fine-Tune Your Listening </div>
+                <div class="para text-center">
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="background-color:rgb(240, 216, 172);">
+            <div class="row  p1 ">
+                <div class="col-12 mt-3 text-center ">
+                    <h2 class="fw-bold ">An Evolution of Sound and Power</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-4 p2 mt-5">
+                    <div class="row ">
+                        <div class="col-8  ">
+                            <div class="content ms-3 ">
+                            <h5>Simple, Wireless Charging </h5>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit </p>
+                        </div>
+                        </div>
+                        <div class="col-4 ">
+                            <div style="width: 80px; height: 80px; border-radius: 9px; background-color: white;" >
+                                <img src="https://nov-one.myshopify.com/cdn/shop/files/icon-5-4_40x.svg?v=1704937958" alt=""
+                                 style="padding: 20px;" class="battery" alt="">
+                               </div>
+                        </div>
+                    </div>
+    
+                    <div class="row my-5">
+                        <div class="col-8 ">
+                            <div class="content ms-3">
+                            <h5>Work To Workout </h5>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit </p>
+                        </div>
+                        </div>
+                        <div class="col-4 ">
+                            <div class="icon">
+                                <div style="width: 80px; height: 80px; border-radius: 9px; background-color: white;" >
+                                    <img src="https://nov-one.myshopify.com/cdn/shop/files/icon-5-5_40x.svg?v=1704937958" alt=""
+                                     style="padding: 20px;" class="battery" alt="">
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row mb-3">
+                        <div class="col-8 ">
+                            <div class="content ms-3">
+                            <h5>Design For Sustainability  </h5>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit </p>
+                        </div>
+                        </div>
+                        <div class="col-4 ">
+                            <div class="icon">
+                                <div style="width: 80px; height: 80px; border-radius: 9px; background-color: white; " >
+                                    <img src="https://nov-one.myshopify.com/cdn/shop/files/icon-5-6_40x.svg?v=1704937958" style="padding: 20px;" class="battery" alt="">
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- imgae -->
+                <div class="col-lg-4  mt-5 p4" >
+                    <div class="img text-center mt-4">
+                    <img src="https://nov-one.myshopify.com/cdn/shop/files/speaker_580x.png?v=1705053894" alt=""
+                    style="width: 330px; height: 350px;" >
+                </div>
+                </div>
+                
+                <div class=" col-4 p3 mt-5">
+                    <div class="row ">
+                        <div class="col-4 ">
+                            <div class="icon">
+                                <div style="width: 80px; height: 80px; border-radius: 9px; background-color: white; " >
+                                    <img src="https://nov-one.myshopify.com/cdn/shop/files/icon-5-7_40x.svg?v=1704937958" style="padding: 20px;" class="battery" alt="">
+                                   </div>
+                            </div>
+                        </div>
+                        <div class="col-8 ">
+                            <h5>Design For Sustainability  </h5>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit </p>
+                        </div>
+                    </div>
+    
+                    
+                    <div class="row my-5">
+                        <div class="col-4 ">
+                            <div class="icon">
+                                <div style="width: 80px; height: 80px; border-radius: 9px; background-color: white; " >
+                                    <img src="https://nov-one.myshopify.com/cdn/shop/files/icon-5-9_40x.svg?v=1704937958" style="padding: 20px;" class="battery" alt="">
+                                   </div>
+                            </div>
+                        </div>
+                        <div class="col-8 ">
+                            <h5>Design For Sustainability  </h5>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit </p>
+                        </div>
+                    </div>
+    
+                    
+                    <div class="row">
+                        <div class="col-4 ">
+                            <div class="icon">
+                                <div style="width: 80px; height: 80px; border-radius: 9px; background-color: white; " >
+                                    <img src="https://nov-one.myshopify.com/cdn/shop/files/icon-5-8_40x.svg?v=1704937958" style="padding: 20px;" class="battery" alt="">
+                                   </div>
+                            </div>
+                        </div>
+                        <div class="col-8 ">
+                            <h5>Design For Sustainability  </h5>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit </p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card ">
+            <div class="para text-center mt-5">
+                <h2 class="fw-bold"> Choose Your Option </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+           
+            <div class="row" style="margin-top: 40px;">
+            <div class="speak1  col-lg-3 col-sm-12 offset-1" style="border: 1px solid; ">
+                <div class="card" style="border: none;">
+                    <img src="https://nov-one.myshopify.com/cdn/shop/files/2_b7919f44-7b0a-48c6-b8b0-6e752733dcec_540x.png?v=1705293957"
+                        class="" alt="..." width="300px" height="300px" id="pick" onmouseenter="img2_fun()" onmouseleave="img_fun()"  >
+                    <div class="card-body">
+                        <h5 class="card-title text-center"> One Speaker Version 1 </h5>
+                        <p class="card-text fw-bold text-center text-primary" style="font-size: x-large; "> $199.00 </p>
+                        <hr>
+                        <p class="card-text text-center" style="font-size: large; ">  Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Obcaecati esse expedita dolorum aperiam natus magnam</p>
+                        <hr>
+                        <div class="div text-center">
+                            <p class="card-text text-center "> <p style="font-size: 20px;"><i class="fa-solid fa-check"></i> <span>Large Size: 120 x 120mm</span></p> </p><hr>
+                        <p class="card-text text-center "> <p style="font-size: 18px;"><i class="fa-solid fa-check"></i> <span> 32 Hour Battery</span></p> </p><hr>
+                        <p class="card-text text-center "> <p style="font-size: 18px;"><i class="fa-solid fa-check"></i> <span> Bluetooth 4.2 </span></p> </p><hr>
+                        <p class="card-text text-center "> <p style="font-size: 18px;"><i class="fa-solid fa-check"></i> <span> IPX 5 rating </span></p> </p><hr>
+                        <p class="card-text text-center "> <p style="font-size: 18px;"><i class="fa-solid fa-check"></i> <span> 4 Microphone </span></p> </p><hr>
+                        </div>
+                        <div class="card-btn ">
+                        <a href="#" class="btn btn-primary " style=" border-radius: 7px; padding-left: 96px;padding-right: 96px;">Buy Now </a><br>
+                        <a href="#" class="btn btn-secondary mt-4 " style="padding-left: 70px;padding-right: 70px;"> Add To Favourite  </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="speak12  col-lg-3 mx-5 col-sm-12" style="border: 1px solid; ">
+                <div class="card " style="border: none;">
+                    <img src="https://nov-one.myshopify.com/cdn/shop/files/2_b7919f44-7b0a-48c6-b8b0-6e752733dcec_540x.png?v=1705293957"
+                        class="" alt="..." width="300px" height="300px" id="pick2" onmouseenter="img3_fun()" onmouseleave="img4_fun()" >
+                    <div class="card-body">
+                        <h5 class="card-title text-center"> One Speaker Version 2 </h5>
+                        <p class="card-text fw-bold text-center text-primary" style="font-size: x-large; "> $199.00 </p>
+                        <hr>
+                        <p class="card-text text-center" style="font-size: large; ">  Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Obcaecati esse expedita dolorum aperiam natus magnam</p>
+                        <hr>
+                        <div class="div text-center">
+                            <p class="card-text text-center "> <p style="font-size: 20px;"><i class="fa-solid fa-check"></i> <span>Large Size: 120 x 120mm</span></p> </p><hr>
+                        <p class="card-text text-center "> <p style="font-size: 18px;"><i class="fa-solid fa-check"></i> <span> 32 Hour Battery</span></p> </p><hr>
+                        <p class="card-text text-center "> <p style="font-size: 18px;"><i class="fa-solid fa-check"></i> <span> Bluetooth 4.2 </span></p> </p><hr>
+                        <p class="card-text text-center "> <p style="font-size: 18px;"><i class="fa-solid fa-check"></i> <span> IPX 5 rating </span></p> </p><hr>
+                        <p class="card-text text-center "> <p style="font-size: 18px;"><i class="fa-solid fa-check"></i> <span> 4 Microphone </span></p> </p><hr>
+                        </div>
+                        <a href="#" class="btn btn-primary " style="padding-left: 96px; padding-right: 96px; border-radius: 7px;">Buy Now </a><br>
+                        <a href="#" class="btn btn-secondary mt-4" style="padding-left: 70px; padding-right: 70px;"> Add To Favourite  </a>
+                    </div>
+                </div>
+
+            </div> <div class="speak13  col-lg-3 col-sm-12 " style=" border: 1px solid;" >
+                <div class="card" style="border: none;">
+                    <img src="https://nov-one.myshopify.com/cdn/shop/files/2_b7919f44-7b0a-48c6-b8b0-6e752733dcec_540x.png?v=1705293957"
+                        class="" alt="..." width="300px" height="300px" id="pick3" onmouseenter="img5_fun()" onmouseleave="img6_fun()" >
+        
+                    <div class="card-body">
+                        <h5 class="card-title text-center"> One Speaker Version 3 </h5>
+                        <p class="card-text fw-bold text-center text-primary" style="font-size: x-large; "> $199.00 </p>
+                        <hr>
+                        <p class="card-text text-center" style="font-size: large; ">  Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Obcaecati esse expedita dolorum aperiam natus magnam</p>
+                        <hr>
+                        <div class="div text-center">
+                            <p class="card-text text-center "> <p style="font-size: 20px;"><i class="fa-solid fa-check"></i> <span>Large Size: 120 x 120mm</span></p> </p><hr>
+                        <p class="card-text text-center "> <p style="font-size: 18px;"><i class="fa-solid fa-check"></i> <span> 32 Hour Battery</span></p> </p><hr>
+                        <p class="card-text text-center "> <p style="font-size: 18px;"><i class="fa-solid fa-check"></i> <span> Bluetooth 4.2 </span></p> </p><hr>
+                        <p class="card-text text-center "> <p style="font-size: 18px;"><i class="fa-solid fa-check"></i> <span> IPX 5 rating </span></p> </p><hr>
+                        <p class="card-text text-center "> <p style="font-size: 18px;"><i class="fa-solid fa-check"></i> <span> 4 Microphone </span></p> </p><hr>
+                        </div>
+                        <a href="#" class="btn btn-primary " style="padding-left: 96px; padding-right: 96px; border-radius: 7px;">Buy Now </a><br>
+                        <a href="#" class="btn btn-secondary mt-4" style="padding-left:70px; padding-right: 70px;"> Add To Favourite  </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="container">
+        <div class="row  " style="margin-top: 60px;">
+            <div class="col-6  p5">
+                <div class=" ">
+                     <h4 class="fw-bold" >One Design With Powerful Technology </h4>
+                    <span>Pharetra elementum est in iaculis eleifend id himenaeos taciti sapien dapibus ac, sagittis suscipit at integer leo tincidunt blandit neque aliquet. Rhoncus interdum vel nulla tortor non cubilia erat.
+                    </span>
+                    <div class="button mt-3">
+                        <button class="text-white py-2 px-2" style="background-color: rgb(248, 200, 110); border-radius: 7px; border: none; ">Download User Guide </button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-6  border ">
+                <div class="img p6 text-center" style="margin-bottom: 100PX;">
+                    <img src="https://nov-one.myshopify.com/cdn/shop/files/img-5-3_580x.jpg?v=1704946232" alt="" style="" class="w-50">
+                </div>
+            </div>
+        </div>
+    </div>
+
+          <div class="footer py-5" style="background-color:black">
+            <div class="row ">
+                <div class="col-12  text-center pt-2">
+                    <span class="text-white fw-bold ">Connect With Us</span>
+                </div>
+            </div>
+          <div class="row mt-4">
+            <div class="col-4 offset-4  d-flex  justify-content-between">
+                <div class="icons text-center align-items-center">
+                    <div class="sqr" style="width: 40px ; height: 40px; border-radius: 50%; ">
+                        <i class="fa-brands fa-amazon mt-2 fs-5"></i>
+                    </div>
+                </div>
+                <div class="icons text-center align-items-center">
+                    <div class="sqr" style="width: 40px ; height: 40px; border-radius: 50%; ">
+                        <i class="fa-brands fa-twitter mt-2 fs-5"></i>
+                    </div>
+                </div>
+                <div class="icons text-center align-items-center">
+                    <div class="sqr" style="width: 40px ; height: 40px; border-radius: 50%; ">
+                        <i class="fa-brands fa-instagram mt-2 fs-5"></i>
+                    </div>
+                </div>
+                <div class="icons text-center align-items-center">
+                    <div class="sqr" style="width: 40px ; height: 40px; border-radius: 50%; ">
+                        <i class="fa-brands fa-pinterest mt-2 fs-5"></i>
+                    </div>
+                </div>
+                <div class="icons text-center align-items-center">
+                    <div class="sqr" style="width: 40px ; height: 40px; border-radius: 50%; ">
+                        <i class="fa-brands fa-tiktok mt-2 fs-5"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 offset-4 mt-5 ">
+                <div class="img align-items-center text-white">
+               <span>Copyright © 2024 Vinovathemes. All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-4 offset-4 text-white mt-2 d-flex justify-content-between">
+                <div class="span ">
+                    <span> Support </span> 
+                </div>
+                <div class="span1  ">
+                    <span>Contact us </span> 
+                </div>
+                <div class="span1 " >
+                <a href=""><span> Term  </span> </a>
+                </div>
+                <div class="span1" >
+                    <a href=""><span> Privacy   </span> </a>
+                    </div>
+                    <div class="span1 " >
+                        <a href=""><span> Rules </span> </a>
+                    </div>
+                     <div class="span1 " >
+                            <a href=""><span> Our Shop</span> </a>
+                    </div>
+            </div>
+        </div>
+      </div>
+
+    <script src="https://kit.fontawesome.com/a84a38dca8.js"></script>
+    <!-- bootstrap js cdn -->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+   <!-- jquery cdn -->
+<script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <!-- waypoints cdn -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="ecommerce.js"></script>
+   
+</body>
+
+</html>
